@@ -40,6 +40,9 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'bootstrap-sass', '~> 2.3.1'
 gem 'faker', '1.0.1'
 
+gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
   gem 'guard-rspec', '1.2.1'
