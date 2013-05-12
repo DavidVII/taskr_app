@@ -112,7 +112,6 @@ GEM
     method_source (0.8.1)
     mime-types (1.23)
     minitest (4.7.4)
-    modernizr-rails (2.6.2.1)
     multi_json (1.7.3)
     nokogiri (1.5.9)
     pg (0.15.1)
@@ -218,7 +217,6 @@ DEPENDENCIES
   guard-spork (= 1.5.0)
   jbuilder (~> 1.0.1)
   jquery-rails
-  modernizr-rails
   pg
   rails (= 4.0.0.rc1)
   rspec-rails (= 2.11.0)

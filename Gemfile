@@ -38,7 +38,6 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Added
 gem 'bootstrap-sass', '~> 2.3.1'
-gem 'modernizr-rails'
 gem 'faker', '1.0.1'
 
 group :development, :test do
