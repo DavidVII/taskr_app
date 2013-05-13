@@ -1,8 +1,10 @@
 TaskrApp::Application.routes.draw do
+  root to: 'static_pages#home'
+
+  get '/signup', to: 'users#new'
+
   get '/about', to: 'static_pages#about'
   get '/contact', to: 'static_pages#contact'
-
-  root to: 'static_pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
