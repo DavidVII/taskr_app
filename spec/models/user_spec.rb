@@ -8,4 +8,14 @@ describe User do
 
   it { should respond_to(:name) }
   it { should respond_to(:email) }
+
+  describe "when a name is not present" do
+    before { @user.name = " " }
+    it { should_not be_valid }
+  end
+
+  describe "when an email is not present" do
+    before { @user.email = " " }
+    it { should_not be_valid }
+  end
 end
