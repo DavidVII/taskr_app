@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: taskr_app_production
   pool: 5
-  username: taskr_app
+  username: David
   password:
