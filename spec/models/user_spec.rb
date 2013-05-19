@@ -1,7 +1,11 @@
 require 'spec_helper'
+require 'database_cleaner'
+
+DatabaseCleaner.strategy = :truncation
 
 describe User do
-
+  DatabaseCleaner.clean
+  
   before { @user = User.new(name: "Example User", email: "user@example.com", password: "foobar", password_confirmation: "foobar") }
 
   subject { @user }
