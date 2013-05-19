@@ -229,6 +229,7 @@ DEPENDENCIES
   jbuilder (~> 1.0.1)
   jquery-rails
   pg
+  pry
   rails (= 4.0.0.rc1)
   rails3_serve_static_assets!
   rails_log_stdout!
