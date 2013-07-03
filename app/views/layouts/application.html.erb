@@ -9,6 +9,18 @@
 <body>
   <%= render 'layouts/header' %>
   <div class="container">
+    <% if flash[:notice] %>
+    <div class="notifyBox">
+      <p class="notice"><%= flash[:notice] = notice %></p>
+    </div>
+    <% end %>
+
+    <% if flash[:alert] %>
+    <div class="notifyBox">
+      <p class="alert"><%= flash[:alert] = alert %></p>
+    </div>
+    <% end %>
+    
     <%= yield %>
     <%= render 'layouts/footer' %>
     <%= debug(params) if Rails.env.development? %>

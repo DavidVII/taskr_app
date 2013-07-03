@@ -39,7 +39,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # Added gems
 gem 'bootstrap-sass', '~> 2.3.1'
 gem 'faker', '1.0.1'
-gem 'devise'
+gem 'devise', '3.0.0.rc'
 
 
 group :development, :test do
