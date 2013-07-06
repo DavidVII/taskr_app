@@ -85,6 +85,28 @@ footer {
   }
 }
 
+// Form Elements
+
+form {
+  > div {
+    margin-bottom: 5px;
+  }
+}
+
+input,
+  textarea {
+    width: 100%;
+  }
+
+.checkbox {
+  input {
+    display: inline;
+  }
+  label {
+    display: inline;
+  }
+}
+
 // miscellaneous
 
 .debug_dump {
