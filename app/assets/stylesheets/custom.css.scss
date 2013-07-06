@@ -42,6 +42,22 @@ p {
   line-height: 1.7em;
 }
 
+// Form Styles
+
+input, textarea {
+  width: 100%;
+}
+
+.checkboxGroup {
+  margin-bottom: 10px;
+  
+  label {
+    display: inline;
+    position: relative;
+    top: 3px;
+  }
+}
+
 /* header */
 
 #logo {
